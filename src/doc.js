@@ -280,7 +280,7 @@
  */
 
 /**
- * @api {POST} /api/circle/new/:user_id  Add a User to an existint Circle
+ * @api {POST} /api/circle/new/:user_id  Add a User to an existing Circle
  * @apiName PostUserToCircle
  * @apiGroup Circle
  * @apiHeader {String} Authorization The token generated at user's login

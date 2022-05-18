@@ -757,6 +757,7 @@
  * @apiDescription Update any field of an Event by its Id.
  *
  * @apiParam {Number} event_id Event Id
+ * @apiBody {Number} user_id Id of the Event's creator
  *
  *
  * @apiBody {String} event.title
@@ -765,7 +766,6 @@
  * @apiBody {Date} event.start
  * @apiBody {Date} event.end
  * @apiBody {String} event.color
- * @apiBody {Number} event.user_id
  * @apiBody {Number} event.circle_id
  *
  *
@@ -817,6 +817,7 @@
  * @apiDescription Delete an Event by its Id.
  *
  * @apiParam {Number} event_id Event Id
+ * @apiBody {Number} user_id Id of the Event'Creator
  *
  *
  * @apiSuccessExample {String} Success-Response:
